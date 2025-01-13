@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* share style */
+.btn {
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: "Azeret Mono";
+}
+.all-title {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "azeret mono";
+    color: #0D1321;
+    margin-top: 25px;
+}
+.all-discription {
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.why-dev-bannar {
+    margin: 97px 130px;
+    background-color: white;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+nav h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+}
+nav h1 span {
+    color: #FF9C2A;
+}
+.bannar {
+  border: 2px solid gray;
+  margin-top: 33px;
+  background-image: url("./assets/Hero-bg.png")
+}
+.hero {
+   width: 1000px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 30px;
+}
+/* main style */
+main {
+    margin: 74px 150px;
+    background-color: #B7BCFF;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.why-dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+.why-title {
+    font-size: 24px;
+}
+.why-dev-details {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    gap: 50px;
+    margin: 20px 140px;
+    padding: 48px;
+}
+.why-dev-details-conten2 {
+    margin-left: 100px;
+}
+.inspiration {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 10px;
+}
+.youtube-video {
+    box-shadow: 0 0 5px 0 black;
+}
+.youtube-video iframe {
+    margin: 20px 0 15px 0;
+}
+.my-target {
+    text-align: center;
+    padding: 20px 30px;
+}
+.target-title {
+    font-size: 32px;
+}
+.target-discription {
+   padding: 0 200px;
+}
+.my-target-deatils {
+    display: flex;
+    text-align: left;
+    gap: 25px;
+}
+.my-target-js {
+    background: #ff4b1e59;
+    padding: 40px;
+    border-radius: 16px;
+}
+.my-target-react {
+    background: #004de840;
+    padding: 40px;
+    border-radius: 16px;
+}
+.my-target-js {
+    background: #ffdd004d;
+    padding: 40px;
+    border-radius: 16px;
+}
+.next-target-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.next-target {
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+    align-items: center;
+    margin: 20px;
+}
+.next-target:hover {
+    box-shadow: 0 0 5px 0px black;
+    border-radius: 16px;
+}
+.next-target-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    /* align-items: flex-start; */
+}
+.next-target-deatils {
+    padding-bottom: 20px;
+}
+.support {
+    background-image: url("assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 30px 20px;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.support h1 {
+    color: #ffffff9b;
+}
+.support-discription {
+   text-align: center;
+   margin: 0 100px 15px 100px;
+    color: #ffffff88;
+}
+
+.support form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.support form input[type="text"] {
+    width: 40%;
+    padding: 20px 30px;
+    font-size: 20px;
+    outline: 0;
+    border-radius: 10px;
+    border: 0;
+}
+.support form input[type="text"]:focus {
+    border: 3px dotted #e30f0f;
+}
+.submit-btn {
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+}
